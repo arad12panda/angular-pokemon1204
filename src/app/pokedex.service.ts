@@ -32,7 +32,7 @@ export class PokedexService {
        * an Observable but we convert
        * it into a Promise.
        */
-      .toPromise()
+      .toPromise() 
       .then(response => response.json().results)
       .then(items => items.map((item, idx) => {
         /**

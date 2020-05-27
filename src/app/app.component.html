@@ -1,10 +1,10 @@
 <h1>Angular 2 Pokédex</h1>
 
-<span>This is a sample app using Angular 2 RC5. Check out the <a href="https://github.com/argelius/angular2-pokedex">source code here</a>.
+
 
 <hr>
 
-<!-- <div class="pokedex">
+<div class="pokedex">
   <div class="pokedex-pokemon" *ngFor="let p of pokemon">
     <div class="pokedex-pokemon-id">
       #{{ p.id }}
@@ -14,7 +14,7 @@
       {{ p.name | capitalize }}
     </div>
   </div>
-</div> -->
+</div>
 
 <button class="load-button" (click)="loadMore()" [disabled]="isLoading">
   <span *ngIf="!error">

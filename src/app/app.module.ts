@@ -14,10 +14,12 @@ import { HttpModule } from '@angular/http';
  * Import the PokedexService
  */
 import { PokedexService } from './pokedex.service';
+import { CapitalizePipe } from './capitalize.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CapitalizePipe
   ],
   imports: [
     BrowserModule,
